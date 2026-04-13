@@ -13,14 +13,14 @@ export default function Book() {
     <div className="w-full h-[calc(100vh-80px)] flex flex-col">
 
       <div className="flex justify-between items-center bg-gray-600 px-6 py-3 border-b">
-        <h1 className="text-lg font-bold">
+        {/* <h1 className="text-lg font-bold">
           📘 English Plus Starter - Units 1,2,3
-        </h1>
+        </h1> */}
 
         <a
           href={pdfUrl}
           download
-          className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg"
+          // className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg"
         >
           ⬇ Descargar
         </a>
